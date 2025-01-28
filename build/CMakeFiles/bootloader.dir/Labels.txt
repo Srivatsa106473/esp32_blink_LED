@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/Sri_Vatsa/github_projects/esp32_builtinLED_blink/build/CMakeFiles/bootloader
+C:/Sri_Vatsa/github_projects/esp32_builtinLED_blink/build/CMakeFiles/bootloader.rule
+C:/Sri_Vatsa/github_projects/esp32_builtinLED_blink/build/CMakeFiles/bootloader-complete.rule
+C:/Sri_Vatsa/github_projects/esp32_builtinLED_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Sri_Vatsa/github_projects/esp32_builtinLED_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Sri_Vatsa/github_projects/esp32_builtinLED_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Sri_Vatsa/github_projects/esp32_builtinLED_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Sri_Vatsa/github_projects/esp32_builtinLED_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Sri_Vatsa/github_projects/esp32_builtinLED_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Sri_Vatsa/github_projects/esp32_builtinLED_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

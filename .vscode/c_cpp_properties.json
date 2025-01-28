@@ -1,0 +1,32 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "ESP32",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "C:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin",  // Adjust with the path to your ESP32 toolchain
+            "compilerArgs": [
+                "-DUNITY_INCLUDE_CONFIG_H",  // Include Unity config header (optional but useful)
+                "C:/Espressif/frameworks/esp-idf-v5.4/components/unity/**"  // Adjust if you have Unity in a different location
+            ],
+            "includePath": [
+                "${workspaceFolder}/**",               // Include your entire workspace
+                "C:/Espressif/frameworks/esp-idf-v5.4/components/**",      // Path to ESP-IDF components
+                "C:/Espressif/frameworks/esp-idf-v5.4/components/unity/**" // Path to Unity source in ESP-IDF
+            ],
+            "defines": [
+                "UNITY_INCLUDE_CONFIG_H",  // Tell Unity to include its configuration header
+                "ESP32",                   // Define platform as ESP32
+                "IDF_VER=\"v4.x.x\""       // Define ESP-IDF version (update as needed)
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "C:/Espressif/frameworks/esp-idf-v5.4/components/**",
+                    "C:/Espressif/frameworks/esp-idf-v5.4/components/unity/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ]
+}
